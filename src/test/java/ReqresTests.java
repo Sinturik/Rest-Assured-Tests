@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
-public class reqresTests {
+public class ReqresTests {
     String url = "https://reqres.in/";
     String dataEmail = "{\n" +
             "    \"email\": \"peter@klaven\"\n" +
