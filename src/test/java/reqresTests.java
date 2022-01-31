@@ -43,7 +43,6 @@ public class reqresTests {
                 .when().get()
                 .then().statusCode(200)
                 .body("data.last_name", equalTo("Weaver"));
-
     }
 
     @Test
